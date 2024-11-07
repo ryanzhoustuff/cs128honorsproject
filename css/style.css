@@ -1,14 +1,63 @@
-* {
+/*
+  
+  unused css
+
+  #profile { currently not used, but may need in future - do not delete yet
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .profile-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 2rem;
+    max-width: 300px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  
+  .profile-card h3 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .invitation-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 2rem;
+  }
+  
+  /* general */
+
+  *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
 
-body {
+  html {
+    min-height: 100vh;
+  }
+
+  body {
     font-family: Arial, sans-serif;
     color: #333;
     background-color: #f9f9f9;
+    min-height: 100vh;
   }
+
+  /* horizontal navigation bar */
 
   header {
     background-color: #222;
@@ -36,18 +85,46 @@ body {
   
   header nav ul li a:hover {
     color: #fff;
+  } 
+
+  /* footer */
+
+  footer {
+
+
+    background-color: #222;
+    color: #ddd;
+    padding: 1rem;
+
+    /*text-align: center; frankly, im not sure why this doesnt work, but flexbox does so lets use that*/
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+
+    position: sticky;
+    top: 100%;
+    width: 100vw;
   }
 
-  .home {
-    background-image: url(poker-table.jpeg); /*replace this image later*/
-    background-size: cover;
-    color: #ddd;
+  /* default section - implemented on most pages*/
+
+  #default{
+    padding: 2rem;
     text-align: center;
-    padding: 25rem;
-    height: 100vh;
-    padding: 30vh;
+    background-color: #f9f9f9;
   }
-  
+
+  /* home page section - implemented only on the home page */
+
+  .home{
+    background-image: url(poker-table.jpeg); 
+    background-size: cover;
+    text-align: center;
+    color: #ddd;
+    padding: 30vh;
+    
+  }
+
   .home h2 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
@@ -72,128 +149,26 @@ body {
   .home .button:hover {
     background-color: #ff5f33;
   }
-  
-  #lobby {
-    padding: 2rem;
-    text-align: center;
-  }
-  
-  .table-list {
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-    flex-wrap: wrap;
-  }
-  
-  .table {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 1.5rem;
-    width: 200px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .table h3 {
-    margin-bottom: 0.5rem;
-  }
-  
-  .table p {
-    margin-bottom: 1rem;
-  }
-  
-  .table .button {
-    background-color: #007bff;
-    color: #fff;
-    padding: 0.5rem 1rem;
-    border: none;
-    border-radius: 5px;
-    text-decoration: none;
-    cursor: pointer;
-  }
-  
-  .table .button:hover {
-    background-color: #0056b3;
-  }
-  
-  #profile {
-    padding: 2rem;
-    text-align: center;
-  }
-  
-  .profile-card {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 2rem;
-    max-width: 300px;
-    margin: 0 auto;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .profile-pic {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    margin-bottom: 1rem;
-  }
-  
-  .profile-card h3 {
-    margin-bottom: 0.5rem;
-  }
-  
-  footer {
-    background-color: #222;
-    color: #ddd;
+
+  /* text with photos class */
+  .text-with-photos p{
     padding: 1rem;
-    text-align: center;
-  }
-  
-  .invitation-section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 2rem;
-    max-width: 1200px;
-    margin: 0 auto;
-    gap: 2rem;
-  }
-  
-  .text-content {
-    max-width: 600px;
-  }
-  
-  .text-content h2 {
-    font-size: 2rem;
-    font-weight: 700;
-    margin-bottom: 1rem;
-  }
-  
-  .text-content p {
-    font-size: 1.125rem;
-    line-height: 1.6;
-    color: #555;
   }
 
-  .text-content ol {
-    font-size: 1.125rem;
-    line-height: 1.6;
-    color: #555;
-    margin-left: 4%;
+  .text-with-photos .right-aligned-photo{
+    float: right;
+    width: 400px; /*lets keep the photos relatively uniform */
+    height: auto;
+    padding: 1rem;
   }
-  
-  .text-content p strong {
-    font-weight: 700;
+
+  .text-with-photos .left-aligned-photo{
+    float: left;
+    width: 400px; /*lets keep the photos relatively uniform */
+    height: auto;
+    padding: 1rem;
   }
-  
-  .text-content a {
-    color: #333;
-    text-decoration: underline;
-  }
-  
-  .image-content img {
-    width: 100%;
-    max-width: 500px;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  }
+
+  /* css for the actual game */
+
+  /* nothing here (yet)
