@@ -1,0 +1,31 @@
+
+
+
+.actions{
+
+  flex-wrap: wrap;
+  display:flex;
+  width: 180%;
+  /*width: 200px;*/
+  /*text-align:center;*/
+}
+
+.actions .buttonWrapper{
+  width: 100%;
+  text-align: center;
+}
+
+.actions .buttonWrapper button {
+  position: relative;
+  width: 125px;
+  margin: 8px 0;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #c42b2b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 1;
+  /*border: 2px dotted rgb(96 139 168);*/
+}
