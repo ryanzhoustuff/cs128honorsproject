@@ -28,3 +28,6 @@ Database: MongoDB
 Algorithm: Counterfactual Regret Minimization (CFR)
 - Implement CFR in Rust to model optimal poker strategies by minimizing regret over repeated game simulations.
 - Optimize decision-making processes for the bot to continuously improve its strategy in dynamic environments.
+
+How to use:
+npm run dev
