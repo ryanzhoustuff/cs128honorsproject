@@ -1,0 +1,25 @@
+
+
+.player-info-left {
+  display: flex;
+  flex-wrap: wrap;
+    color: white;
+    margin-bottom: 5px;
+    z-index: 1;
+    width: 180%;
+    /*margin-left: 12.5%;*/
+    /*border: 2px dotted rgb(96 139 168);*/
+  }
+  
+  .player-info-left h2 {
+    margin: 0 0 10px;
+    text-align: center;
+    /*font-size: 18px;*/
+    width: 100%;
+  }
+
+  .player-info-left p {
+    margin: 0 0 10px;
+    text-align: center;
+    width: 100%;
+  }

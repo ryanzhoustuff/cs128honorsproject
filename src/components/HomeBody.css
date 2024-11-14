@@ -1,0 +1,52 @@
+  html{
+    /*display: flex;*/
+    background-color: #000;
+  }
+
+  .home{
+    flex-grow: 1;
+    background-image: url(../assets/poker-home.jpg); 
+    background-size: cover;
+    text-align: center;
+    color: #ddd;
+    background-color: transparent;
+    /*text-shadow: 5px 5px 5px #ccc;*/
+    /*padding: 30vh;*/
+    padding-top: 26vh;
+    padding-bottom: calc(29vh + 4px);
+    min-height: calc(100%-120);
+    width: 100vw;
+  }
+
+  .home h2 {
+    top: -15px;
+    position: relative;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    /*text-shadow: 2px 2px 3px #ccc;*/
+  }
+  
+  .home p {
+    top: -5px;
+    position: relative;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    /*text-shadow: 2px 2px 3px #ccc;*/
+  }
+  
+  .home .button {
+    top: 5px;
+    position: relative;
+    background-color: #bb3333/*#ff3e00*/;
+    color: #fff;
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .home .button:hover {
+    background-color: #bb4346/*#ff5f33*/;
+  }
