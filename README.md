@@ -1,46 +1,30 @@
-# Getting Started with Create React App
+1. Introduction
+This project aims to develop a comprehensive full-stack poker bot and solver with strategic optimization using Counterfactual Regret Minimization (CFR). The bot will provide a practice environment for poker enthusiasts, allowing them to play against an AI opponent with advanced strategy optimization capabilities. The backend will be developed in Rust for performance and scalability, and the frontend will use React to offer a user-friendly interface. The goal is to leverage CFR to continually optimize the bot’s decision-making strategies across simulated games.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+2. Objectives
+- Create a robust poker game engine with support for Texas Hold'Em, including mechanics such as betting rounds, hand evaluations, and game flows.
+- Optimize gameplay strategies using Counterfactual Regret Minimization to improve the bot’s decision-making and simulate competitive poker scenarios.
+- Implement a seamless full-stack architecture using Rust for backend logic and React for the frontend interface.
+- Integrate MongoDB to store player profiles, game histories, hand evaluations, and bot performance metrics for analysis and future optimizations.
 
-## Available Scripts
+3. Project Architecture and Technologies
 
-In the project directory, you can run:
+Frontend: React
+- User-friendly interface for creating accounts, starting games, and visualizing game statistics.
+- Responsive design to ensure a smooth experience on desktops and mobile devices.
 
-### `npm start`
+Backend: Rust with Axum Framework
+- Use Axum to build HTTP APIs for handling game mechanics, player actions, and communication between frontend and backend.
+- Ensure high performance and low latency for real-time game interactions.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Data Serialization: Serde
+- Efficient serialization and deserialization of JSON objects between the frontend and backend.
+- Smooth data exchange, minimizing overhead during gameplay.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Database: MongoDB
+- Store player profiles, game histories, and hand evaluation data.
+- Enable detailed analysis of game sessions and user progress over time.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Algorithm: Counterfactual Regret Minimization (CFR)
+- Implement CFR in Rust to model optimal poker strategies by minimizing regret over repeated game simulations.
+- Optimize decision-making processes for the bot to continuously improve its strategy in dynamic environments.
