@@ -11,7 +11,7 @@
 }
 
 .actions .buttonWrapper{
-  width: 100%;
+  width: 161px;
   text-align: center;
 }
 
@@ -28,4 +28,9 @@
   cursor: pointer;
   z-index: 1;
   /*border: 2px dotted rgb(96 139 168);*/
+}
+
+.actions input {
+  position: relative;
+  top: 15px;
 }

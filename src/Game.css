@@ -20,6 +20,8 @@
 }
 
 .sidebar {
+  top: -0vw;
+  position: relative;
   align-items: center;
   /*margin-left: 20%;*/
   width: 15%;
@@ -41,6 +43,24 @@
   display: block;
 }
 
+.sidebar .leftcards{
+  z-index: 1;
+  left: 40%;
+  position: relative;
+}
+
+.sidebar .leftcards .leftcard1{
+  position: relative;
+  width: 50%;
+  right: 10%;
+}
+
+.sidebar .leftcards .leftcard2{
+  position: relative;
+  width: 50%;
+  left: 10%;
+}
+
 .sidebar .rightImage{
   z-index: 1;
   width: 80%;
@@ -49,6 +69,24 @@
   margin-bottom: 15px;
   border-radius: 50%;
   display: block;
+}
+
+.sidebar .rightcards{
+  z-index: 1;
+  left: -40%;
+  position: relative;
+}
+
+.sidebar .rightcards .rightcard1{
+  position: relative;
+  width: 50%;
+  right: 10%;
+}
+
+.sidebar .rightcards .rightcard2{
+  position: relative;
+  width: 50%;
+  left: 10%;
 }
 
 footer {

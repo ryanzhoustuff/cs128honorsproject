@@ -13,7 +13,7 @@
 
 .poker-table{
   background-image: url(../assets/poker-table-cropped4.jpg); 
-  width: 75%;
+  width: 70%;
   aspect-ratio: 1906/1080;
   background-size: 100%;
   /*border: 2px dotted rgb(96 139 168);*/
@@ -33,9 +33,33 @@
 .poker-table .table-div .table-components{
   position: relative;
   display: flex;
-  top: 33%;
+  top: 42%;
+  left: 27%;
+  width: 46%;
+  height: 25%;
+  justify-content: space-around;
+}
+
+.poker-table .table-div .pot{
+  position: relative;
+  display: flex;
+  top: 60%;
   left: 25%;
   width: 50%;
-  height: 42%;
-  border: 2px dotted rgb(256 0 0);
+  height: 50px;
+  justify-content: space-around;
+  /*border: 2px dotted rgb(256 0 0);*/
+}
+
+.poker-table .table-div .pot p{
+  font-size: 25px;
+}
+
+.poker-table .table-div .buttons{
+  position: relative;
+  display: flex;
+  top: 63%;
+  left: 25%;
+  width: 50%;
+  height: 10%;
 }

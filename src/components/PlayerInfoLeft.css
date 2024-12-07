@@ -23,3 +23,7 @@
     text-align: center;
     width: 100%;
   }
+
+  .player-info-left img{
+    height: 10%;
+  }

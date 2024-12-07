@@ -6,6 +6,7 @@ const PlayerInfo: React.FC = () => {
       <h2>[FirstName LastName]</h2>
       <p>Money: [PlaceHolder]</p>
       <p>Current Bet: [PlaceHolder]</p>
+
     </div>
   );
 };
