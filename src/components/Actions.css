@@ -6,6 +6,7 @@
   flex-wrap: wrap;
   display:flex;
   width: 180%;
+  justify-content: center;
   /*width: 200px;*/
   /*text-align:center;*/
 }
@@ -13,6 +14,7 @@
 .actions .buttonWrapper{
   width: 161px;
   text-align: center;
+
 }
 
 .actions .buttonWrapper button {

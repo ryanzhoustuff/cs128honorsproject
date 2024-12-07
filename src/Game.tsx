@@ -1,12 +1,9 @@
 import React from 'react';
 import './Game.css';
 import Header from './components/Header';
-import PlayerInfo from './components/PlayerInfo';
-import Actions from './components/Actions';
 import PokerTable from './components/PokerTable';
 
-import PlayerInfoLeft from './components/PlayerInfoLeft';
-import PlayerInfoRight from './components/PlayerInfoRight';
+import PlayerInfoRefactor from './components/PlayerInfoRefactor';
 
 const App: React.FC = () => {
   const namesInput = ["Home", "Play", "third page"];
@@ -17,7 +14,7 @@ const App: React.FC = () => {
       <div className="content">
         <div className="sidebar" >
           <img src='./src/assets/sample_profile.jpg' alt="Profile Picture" className="leftImage"/>
-          <PlayerInfoLeft />
+            <PlayerInfoRefactor />
           <div className="leftcards">
             <img src='./src/assets/PNG-cards-1.3/2_of_clubs.png' className="leftcard1"/>
             <img src='./src/assets/PNG-cards-1.3/2_of_clubs.png' className="leftcard2"/>
@@ -25,9 +22,13 @@ const App: React.FC = () => {
           
         </div>
         <PokerTable numImages={4} pot={500}/> 
-        <div className="sidebar">
+        <div className="sidebar" >
         <img src='./src/assets/sample_profile.jpg' alt="Profile Picture" className="rightImage"/>
-          <PlayerInfoRight />
+        <div className="margin-adjuster">
+          <PlayerInfoRefactor/>
+        </div>
+
+          
           <div className="rightcards">
             <img src='./src/assets/PNG-cards-1.3/2_of_clubs.png' className="rightcard1"/>
             <img src='./src/assets/PNG-cards-1.3/2_of_clubs.png' className="rightcard2"/>

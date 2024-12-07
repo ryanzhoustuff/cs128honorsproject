@@ -1,0 +1,27 @@
+.margin-adjuster .player-info-refactor{
+    margin-left: -80%;
+}
+
+.player-info-refactor {
+    display: flex;
+    flex-wrap: wrap;
+      color: white;
+      margin-bottom: 5px;
+      z-index: 1;
+      width: 180%;
+      /*margin-left: 12.5%;*/
+      /*border: 2px dotted rgb(96 139 168);*/
+    }
+    
+    .player-info-refactor h2 {
+      margin: 0 0 10px;
+      text-align: center;
+      /*font-size: 18px;*/
+      width: 100%;
+    }
+  
+    .player-info-refactor p {
+      margin: 0 0 10px;
+      text-align: center;
+      width: 100%;
+    }
