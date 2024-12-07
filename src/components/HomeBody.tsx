@@ -1,6 +1,5 @@
 /*import '../style.css'*/
 import './HomeBody.css'
-import React, { useState, useEffect, useRef } from 'react'
 
 const HomeBody = () => {
     return (

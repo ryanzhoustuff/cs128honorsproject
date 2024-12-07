@@ -3,7 +3,7 @@ import './Game.css';
 import Header from './components/Header';
 import PokerTable from './components/PokerTable';
 
-import PlayerInfoRefactor from './components/PlayerInfoRefactor';
+import PlayerInfoRefactor from './components/PlayerInfo';
 
 const App: React.FC = () => {
   const namesInput = ["Home", "Play", "third page"];
@@ -14,7 +14,7 @@ const App: React.FC = () => {
       <div className="content">
         <div className="sidebar" >
           <img src='./src/assets/sample_profile.jpg' alt="Profile Picture" className="leftImage"/>
-            <PlayerInfoRefactor />
+            <PlayerInfoRefactor userName="Ryan Z" userBalance={2000} currentBet={100} />
           <div className="leftcards">
             <img src='./src/assets/PNG-cards-1.3/2_of_clubs.png' className="leftcard1"/>
             <img src='./src/assets/PNG-cards-1.3/2_of_clubs.png' className="leftcard2"/>
@@ -25,7 +25,7 @@ const App: React.FC = () => {
         <div className="sidebar" >
         <img src='./src/assets/sample_profile.jpg' alt="Profile Picture" className="rightImage"/>
         <div className="margin-adjuster">
-          <PlayerInfoRefactor/>
+          <PlayerInfoRefactor userName="Dabo Swinney" userBalance={2000} currentBet={100} />
         </div>
 
           

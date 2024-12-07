@@ -1,26 +1,33 @@
-.margin-adjuster .player-info-refactor{
-    margin-left: -80%;
+.margin-adjuster{
+    max-width: 100%;
 }
 
-.player-info-refactor {
+.margin-adjuster .player-info{
+    position: relative;
+    left: -80%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.player-info{
     display: flex;
     flex-wrap: wrap;
       color: white;
       margin-bottom: 5px;
       z-index: 1;
       width: 180%;
-      /*margin-left: 12.5%;*/
-      /*border: 2px dotted rgb(96 139 168);*/
+      word-wrap: break-word;
     }
     
-    .player-info-refactor h2 {
+    .player-info h2 {
       margin: 0 0 10px;
       text-align: center;
       /*font-size: 18px;*/
       width: 100%;
     }
   
-    .player-info-refactor p {
+    .player-info p {
       margin: 0 0 10px;
       text-align: center;
       width: 100%;
