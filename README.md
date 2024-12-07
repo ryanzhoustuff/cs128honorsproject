@@ -1,5 +1,5 @@
 1. Introduction
-This project aims to develop a comprehensive full-stack poker bot and solver with strategic optimization using Counterfactual Regret Minimization (CFR). The bot will provide a practice environment for poker enthusiasts, allowing them to play against an AI opponent with advanced strategy optimization capabilities. The backend will be developed in Rust for performance and scalability, and the frontend will use React to offer a user-friendly interface. The goal is to leverage CFR to continually optimize the bot’s decision-making strategies across simulated games.
+- This project aims to develop a comprehensive full-stack poker bot and solver with strategic optimization using Counterfactual Regret Minimization (CFR). The bot will provide a practice environment for poker enthusiasts, allowing them to play against an AI opponent with advanced strategy optimization capabilities. The backend will be developed in Rust for performance and scalability, and the frontend will use React to offer a user-friendly interface. The goal is to leverage CFR to continually optimize the bot’s decision-making strategies across simulated games.
 
 2. Objectives
 - Create a robust poker game engine with support for Texas Hold'Em, including mechanics such as betting rounds, hand evaluations, and game flows.
