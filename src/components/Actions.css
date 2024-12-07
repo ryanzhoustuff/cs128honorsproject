@@ -1,17 +1,12 @@
-
-
-
-.actions{
+.actions {
 
   flex-wrap: wrap;
-  display:flex;
+  display: flex;
   width: 180%;
   justify-content: center;
-  /*width: 200px;*/
-  /*text-align:center;*/
 }
 
-.actions .buttonWrapper{
+.actions .buttonWrapper {
   width: 161px;
   text-align: center;
 
@@ -29,7 +24,6 @@
   border-radius: 5px;
   cursor: pointer;
   z-index: 1;
-  /*border: 2px dotted rgb(96 139 168);*/
 }
 
 .actions input {

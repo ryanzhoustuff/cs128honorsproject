@@ -12,11 +12,11 @@ import {
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home/>,
+    element: <Home />,
   },
   {
     path: "game",
-    element: <Game/>,
+    element: <Game />,
   },
 ]);
 
@@ -25,6 +25,6 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router}/>
+    <RouterProvider router={router} />
   </React.StrictMode>
 );

@@ -1,4 +1,3 @@
-/*import '../style.css'*/
 import './HomeBody.css'
 
 const HomeBody = () => {

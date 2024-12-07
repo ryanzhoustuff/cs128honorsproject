@@ -1,33 +1,16 @@
-/*.poker-table {
-  background-color: green;
-  border-radius: 50px;
-  padding: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 600px;
-  height: 300px;
-  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.5);
-  position: relative;
-}*/
 
 .poker-table{
   background-image: url(../assets/poker-table-cropped4.jpg); 
   width: 70%;
   aspect-ratio: 1906/1080;
   background-size: 100%;
-  /*border: 2px dotted rgb(96 139 168);*/
   background-repeat: no-repeat;
   z-index: 0;
-  /*display: flex;*/
 }
 
 .poker-table .table-div{
-  /*top: 25%;*/
   width: 100%;
-  /*height: 47%;*/
   aspect-ratio: 2080/1080;
-  /*border: 2px dotted rgb(256 0 0);*/
 }
 
 .poker-table .table-div .table-components{
@@ -48,7 +31,6 @@
   width: 50%;
   height: 50px;
   justify-content: space-around;
-  /*border: 2px dotted rgb(256 0 0);*/
 }
 
 .poker-table .table-div .pot p{

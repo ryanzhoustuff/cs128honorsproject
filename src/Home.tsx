@@ -9,7 +9,7 @@ const Home: React.FC = () => {
   return (
     <div className="app">
       <Header names={namesInput} hrefs={hrefsInput} />
-      <HomeBody/>
+      <HomeBody />
       <footer>© 2024 Honors Poker. All rights reserved.</footer>
     </div>
   );

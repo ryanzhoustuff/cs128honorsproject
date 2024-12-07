@@ -13,25 +13,25 @@ const App: React.FC = () => {
       <Header names={namesInput} hrefs={hrefsInput} />
       <div className="content">
         <div className="sidebar" >
-          <img src='./src/assets/sample_profile.jpg' alt="Profile Picture" className="leftImage"/>
-            <PlayerInfoRefactor userName="Ryan Z" userBalance={2000} currentBet={100} />
+          <img src='./src/assets/sample_profile.jpg' alt="Profile Picture" className="leftImage" />
+          <PlayerInfoRefactor userName="Ryan Z" userBalance={2000} currentBet={100} />
           <div className="leftcards">
-            <img src='./src/assets/PNG-cards-1.3/2_of_clubs.png' className="leftcard1"/>
-            <img src='./src/assets/PNG-cards-1.3/2_of_clubs.png' className="leftcard2"/>
+            <img src='./src/assets/PNG-cards-1.3/2_of_clubs.png' className="leftcard1" />
+            <img src='./src/assets/PNG-cards-1.3/2_of_clubs.png' className="leftcard2" />
           </div>
-          
-        </div>
-        <PokerTable numImages={4} pot={500}/> 
-        <div className="sidebar" >
-        <img src='./src/assets/sample_profile.jpg' alt="Profile Picture" className="rightImage"/>
-        <div className="margin-adjuster">
-          <PlayerInfoRefactor userName="Dabo Swinney" userBalance={2000} currentBet={100} />
-        </div>
 
-          
+        </div>
+        <PokerTable numImages={4} pot={500} />
+        <div className="sidebar" >
+          <img src='./src/assets/sample_profile.jpg' alt="Profile Picture" className="rightImage" />
+          <div className="margin-adjuster">
+            <PlayerInfoRefactor userName="Dabo Swinney" userBalance={2000} currentBet={100} />
+          </div>
+
+
           <div className="rightcards">
-            <img src='./src/assets/PNG-cards-1.3/2_of_clubs.png' className="rightcard1"/>
-            <img src='./src/assets/PNG-cards-1.3/2_of_clubs.png' className="rightcard2"/>
+            <img src='./src/assets/PNG-cards-1.3/2_of_clubs.png' className="rightcard1" />
+            <img src='./src/assets/PNG-cards-1.3/2_of_clubs.png' className="rightcard2" />
           </div>
         </div>
       </div>
