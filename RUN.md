@@ -1,1 +1,2 @@
-
+- git clone
+- npm run dev
