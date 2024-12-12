@@ -20,6 +20,14 @@ Backend: Rust with Axum Framework
 - Use Axum to build HTTP APIs for handling game mechanics, player actions, and communication between frontend and backend.
 - Ensure high performance and low latency for real-time game interactions.
 
+Data Serialization: Serde
+- Efficient serialization and deserialization of JSON objects between the frontend and backend.
+- Smooth data exchange, minimizing overhead during gameplay.
+
+Database: MongoDB
+- Store player profiles, game histories, and hand evaluation data.
+- Enable detailed analysis of game sessions and user progress over time.
+
 Project Checkpoint 1
 - Start on the poker bot logic
 - Start on the website
@@ -28,14 +36,6 @@ Project Checkpoint 2
 - Finish the poker bot logic
 - Finish the website
 - Start on connecting the frontend to the backend
-
-Data Serialization: Serde
-- Efficient serialization and deserialization of JSON objects between the frontend and backend.
-- Smooth data exchange, minimizing overhead during gameplay.
-
-Database: MongoDB
-- Store player profiles, game histories, and hand evaluation data.
-- Enable detailed analysis of game sessions and user progress over time.
 
 3. Project Challenges
 - Learning a new language (React)
