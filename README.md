@@ -1,5 +1,5 @@
 Contributors: Ryan Zhou(ryanz5), Eric Wang(ericw9), Vishnu Aravind (vaa4), Amit Gulati (amitabh6)
-No Group Name
+Poker Group
 
 1. Introduction
 - This project aims to develop a comprehensive full-stack poker bot. The bot will provide a practice environment for poker enthusiasts, allowing them to play against an opponent with advanced strategy optimization capabilities. The backend will be developed in Rust for performance and scalability, and the frontend will use React to offer a user-friendly interface. 
