@@ -6,8 +6,8 @@ const HomeBody = () => {
             <div className="home"
                 style={{ padding: "" }}
             >
-                <h2>Welcome to Honors Poker!</h2>
-                <p>Thanks for visiting our website! Click the button below to start playing!</p>
+                <h2><mark>Welcome to Honors Poker!</mark></h2>
+                <p><mark>Thanks for visiting our website!</mark></p>
                 <a href="game" className="button">Play Now</a>
             </div>
         </body>

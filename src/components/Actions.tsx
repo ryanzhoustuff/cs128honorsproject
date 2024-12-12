@@ -10,15 +10,12 @@ const Actions = ({ call_check }: Prop) => {
   const [bet, setBet] = useState(100);
   const [betClicked, setBetClicked] = useState(false);
   const betClick = () => {
-    /*you might wanna check that its their turn before you allow this button to be clicked*/
-    /*alert("This is a popup.");*/
     setNumButtons(2);
     setBetClicked(true);
   }
   const submitClick = () => {
     setBetClicked(false);
     setNumButtons(3);
-    /*use api here*/
   }
   const change = (event: { target: { value: any; }; }) => {
     const newvalue = event.target.value;
