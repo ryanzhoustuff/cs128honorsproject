@@ -1,0 +1,5 @@
+- run "git clone"
+- cd into frontend folder
+- run "npm install"
+- run "npm run dev"
+- launch the website (should be http://localhost:5173/)

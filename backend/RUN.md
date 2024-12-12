@@ -1,0 +1,3 @@
+- run "git clone"
+- cd to the backend folder
+- run "cargo run"
